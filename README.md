@@ -2,16 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # Appledger
 
-<div style= background: #F2f2f2; color: black; border: 3px solid #535353; nargin: 0px auto; width: 456px; padding: 10px; border-radius: 10px; >
-            App directory for saving login credentials. This innovative application not
-            only stores your login credentials but
-            also makes it
-              conveniently easy to retrieve them
-            . No more worrying about forgetting your passwords or usernames.
-            With Appledger, you can enjoy a more
-            visual and user-friendly approach
-            to password management.
-</div>
+`<div style= background: #F2f2f2; color: black; border: 3px solid #535353; nargin: 0px auto; width: 456px; padding: 10px; border-radius: 10px; >
+App directory for saving login credentials. This innovative application not
+only stores your login credentials but
+also makes it
+conveniently easy to retrieve them
+. No more worrying about forgetting your passwords or usernames.
+With Appledger, you can enjoy a more
+visual and user-friendly approach
+to password management.
+
+</div>`
 
 ## Site
 
@@ -69,7 +70,7 @@ system in place to manage and retrieve login credentials easily.
 
 - One-time master password
 
-![alt text](./img/appl_login.webp)
+`![alt text](./img/appl_login.webp =200x400)`
 
 - Home screen to view all entries. Easily view, edit, and delete your entries on this page. The total
   number of entries is displayed at the top, and you can search by
@@ -133,7 +134,7 @@ Appledger is still in progress.
 To fix a bug, create a new function or enhance the application, follow these steps:
 
 - Fork the repository.
-- Create a topic branch from master (``` git checkout -b improve-feature).
+- Create a topic branch from master (`git checkout -b improve-feature`).
 - Make some commits to improve the project.
 - Push this branch to your Github project.
 - Create a pull request.
