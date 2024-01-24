@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # Appledger
 
-> <p style="background: #F2f2f2; color: black; border: 3px solid #535353; nargin: 0px auto; width: 456px; padding: 10px; border-radius: 10px;">
+<p style="background: #F2f2f2; color: black; border: 3px solid #535353; nargin: 0px auto; width: 456px; padding: 10px; border-radius: 10px;">
 > App directory for saving login credentials. This innovative application not
 > only stores your login credentials but
 > also makes it
@@ -68,9 +68,9 @@ system in place to manage and retrieve login credentials easily.
 
 #### Available features:
 
-- One-time master password
+- <p style="text-align: center;">One-time master password</p>
 
-<img src="./img/appl_login.webp" width="320" height="auto">
+<img src="./img/appl_login.webp" align="center" width="320" height="auto">
 
 - Home screen to view all entries. Easily view, edit, and delete your entries on this page. The total
   number of entries is displayed at the top, and you can search by
