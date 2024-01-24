@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # Appledger
 
-`<div style= background: #F2f2f2; color: black; border: 3px solid #535353; nargin: 0px auto; width: 456px; padding: 10px; border-radius: 10px; >
+<div style="background: #F2f2f2; color: black; border: 3px solid #535353; nargin: 0px auto; width: 456px; padding: 10px; border-radius: 10px;">
 App directory for saving login credentials. This innovative application not
 only stores your login credentials but
 also makes it
@@ -11,8 +11,7 @@ conveniently easy to retrieve them
 With Appledger, you can enjoy a more
 visual and user-friendly approach
 to password management.
-
-</div>`
+</div>
 
 ## Site
 
@@ -76,7 +75,8 @@ system in place to manage and retrieve login credentials easily.
   number of entries is displayed at the top, and you can search by
   name, tag, or description.
 
-![alt text](./img/appl_home.webp)
+<!-- ![alt text](./img/appl_home.webp) -->
+<img src="./img/appl_login.webp" width="160" height="auto">
 
 - Add new entries with the default template or remove and add
   fields as you like.
@@ -119,7 +119,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Project Status
 
-Appledger is still in progress.
+Appledger development is still in progress.
 
 ## Room for Improvement
 
