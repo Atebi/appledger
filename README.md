@@ -2,20 +2,21 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # Appledger
 
-<div style="background: #F2f2f2; color: black; border: 3px solid #535353; nargin: 0px auto; width: 456px; padding: 10px; border-radius: 10px;">
-App directory for saving login credentials. This innovative application not
-only stores your login credentials but
-also makes it
-conveniently easy to retrieve them
-. No more worrying about forgetting your passwords or usernames.
-With Appledger, you can enjoy a more
-visual and user-friendly approach
-to password management.
-</div>
+> <p style="background: #F2f2f2; color: black; border: 3px solid #535353; nargin: 0px auto; width: 456px; padding: 10px; border-radius: 10px;">
+> App directory for saving login credentials. This innovative application not
+> only stores your login credentials but
+> also makes it
+> conveniently easy to retrieve them
+> . No more worrying about forgetting your passwords or usernames.
+> With Appledger, you can enjoy a more
+> visual and user-friendly approach
+> to password management.
+
+</p>
 
 ## Site
 
-> Visit the live site [here](https://appledger.vercel.app)
+Visit the live site [here](https://appledger.vercel.app)
 
 ## Figma
 
@@ -23,7 +24,7 @@ You can test the [prototype](https://appledger.vercel.app) created in Figma.
 
 ## Case-study
 
-> Learn more by reading the full [case-study](https://pixelayo.vercel.app/ayo/case-study/appledger) on my portfolio website.
+Learn more by reading the full [case-study](https://pixelayo.vercel.app/ayo/case-study/appledger) on my portfolio website.
 
 ## Table of Contents
 
@@ -69,14 +70,13 @@ system in place to manage and retrieve login credentials easily.
 
 - One-time master password
 
-`![alt text](./img/appl_login.webp =200x400)`
+<img src="./img/appl_login.webp" width="320" height="auto">
 
 - Home screen to view all entries. Easily view, edit, and delete your entries on this page. The total
   number of entries is displayed at the top, and you can search by
   name, tag, or description.
 
-<!-- ![alt text](./img/appl_home.webp) -->
-<img src="./img/appl_login.webp" width="160" height="auto">
+![alt text](./img/appl_home.webp)
 
 - Add new entries with the default template or remove and add
   fields as you like.
