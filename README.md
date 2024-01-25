@@ -68,9 +68,9 @@ system in place to manage and retrieve login credentials easily.
 
 #### Available features:
 
-- <p style="text-align: center;">One-time master password</p>
+- <p align="center">One-time master password</p>
 
-<img src="./img/appl_login.webp" align="center" width="320" height="auto">
+<p align="center"><img src="./img/appl_login.webp" width="320" height="auto"></p>
 
 - Home screen to view all entries. Easily view, edit, and delete your entries on this page. The total
   number of entries is displayed at the top, and you can search by
