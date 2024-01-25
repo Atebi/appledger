@@ -87,16 +87,14 @@ system in place to manage and retrieve login credentials easily.
 <img src="./img/appl_login.webp" width="49%" height="auto">
 <img src="./img/appl_home.webp" width="49%" height="auto">
 </p>
-
-&nbsp
-
+\
+\
 <p float="left" align="center">
 <img src="./img/appl_create.webp" width="49%" height="auto">
 <img src="./img/appl_view.webp" width="49%" height="auto">
 </p>
-
-&nbsp
-
+\
+\
 <p align="center">
 <img src="./img/appl_homeDark.webp" width="49%" height="auto">
 </p>
