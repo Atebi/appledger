@@ -70,7 +70,10 @@ system in place to manage and retrieve login credentials easily.
 
 - <p align="center">One-time master password</p>
 
-<p align="center"><img src="./img/appl_login.webp" width="320" height="auto"></p>
+<p float="left" align="center">
+<img src="./img/appl_login.webp" width="384" height="auto">
+<img src="./img/appl_home.webp" width="384" height="auto">
+</p>
 
 - Home screen to view all entries. Easily view, edit, and delete your entries on this page. The total
   number of entries is displayed at the top, and you can search by
