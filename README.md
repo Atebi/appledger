@@ -19,9 +19,9 @@ Visit the live site [here](https://appledger.vercel.app)
 
 You can test the [prototype](https://www.figma.com/proto/E84xZikI87orYzxNaKlw7f/appLedger?type=design&node-id=34-441&t=3sgzyFApyqC663qq-0&scaling=scale-down&starting-point-node-id=384%3A304) created in Figma.
 
-## Case-study
+## Case Study
 
-Learn more by reading the full [case-study](https://pixelayo.vercel.app/ayo/case-study/appledger) on my portfolio website.
+Learn more by reading the full [case study](https://pixelayo.vercel.app/ayo/case-study/appledger) on my portfolio website.
 
 ## Table of Contents
 

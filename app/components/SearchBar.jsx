@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const SearchBar = ({ setEntries, setIsSearching }) => {
+const SearchBar = ({ ledger, setEntries, setIsSearching }) => {
   // search query
   const [query, setQuery] = useState("");
 
@@ -15,7 +15,9 @@ const SearchBar = ({ setEntries, setIsSearching }) => {
     setQuery(value);
     setIsSearching(true);
 
-    const allEntries = JSON.parse(localStorage.getItem("ledgerString"));
+    // const allEntries = JSON.parse(localStorage.getItem("ledgerString"));
+    // ledger is imported so that a user doesn't get an error when theres 0 entries but still tries the search function(for some weird reason)
+    const allEntries = ledger;
     // console.log("response allEntries", allEntries);
 
     // When the search query(value) includes text that is === to text in the title, descr or tag, this function returns a filtered array. I used "value" instead of the state query because "setQuery(value)" doesnt update components immediately but "value" does.

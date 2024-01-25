@@ -30,7 +30,7 @@ const FeedSearch = () => {
   return (
     <>
       {/*I passed setEntries and isSearching and entries so that the cards will re-render upon user search.*/}
-      <SearchBar setEntries={setEntries} setIsSearching={setIsSearching} />
+      <SearchBar ledger={allApps} setEntries={setEntries} setIsSearching={setIsSearching} />
       {totalEntries >= 1 ? (
         <>
           <Feed isSearching={isSearching} entries={entries} />
