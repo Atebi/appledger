@@ -2,17 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # Appledger
 
-<kbd><p>
-App directory for saving login credentials. This innovative application not
+<span style="background: #f2f2f2; border: 3px solid #535353; margin: 0px auto; width: 456px; padding: 10px; border-radius: 10px;">App directory for saving login credentials. This innovative application not
 only stores your login credentials but
 also makes it
 conveniently easy to retrieve them
 . No more worrying about forgetting your passwords or usernames.
 With Appledger, you can enjoy a more
 visual and user-friendly approach
-to password management.
-
-</p></kbd>
+to password management.</span>
 
 ## Site
 
@@ -71,14 +68,14 @@ system in place to manage and retrieve login credentials easily.
 
 - One-time master password
 
-- Home screen to view all entries. Easily view, edit, and delete your entries on this page. The total
+- Home screen to view all entries. Easily view, edit, and delete your entries. The total
   number of entries is displayed at the top, and you can search by
   name, tag, or description.
 
 - Add new entries with the default template or remove and add
   fields as you like.
 
-- View, edit, and delete application data on this screen.
+- View, edit, and delete application data.
   Additionally, you may click on any field to copy its data to the
   clipboard.
 
@@ -88,18 +85,19 @@ system in place to manage and retrieve login credentials easily.
 
 <p float="left" align="center">
 <img src="./img/appl_login.webp" width="49%" height="auto">
+&nbsp
 <img src="./img/appl_home.webp" width="49%" height="auto">
 </p>
+/
 /
 /
 <p float="left" align="center">
 <img src="./img/appl_create.webp" width="49%" height="auto">
 <img src="./img/appl_view.webp" width="49%" height="auto">
 </p>
-/
-/
+&nbsp
 <p align="center">
-<img src="./img/appl_Home.webp" width="49%" height="auto">
+<img src="./img/appl_homeDark.webp" width="49%" height="auto">
 </p>
 
 ## How to Use
