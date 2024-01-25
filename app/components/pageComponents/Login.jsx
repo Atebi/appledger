@@ -18,7 +18,7 @@ export default function Login() {
       </h3>
 
       <form
-        action="/home"
+        action="/appledger/home"
         className="grid h-full place-items-center gap-2 px-6"
       >
         <InputField

@@ -6,6 +6,7 @@ import InputField from "../Input";
 import Button from "../Button";
 import { useRouter } from "next/navigation";
 import { v4 as uuidv4 } from "uuid";
+import getApps from "@/app/utils/localStorage";
 
 const NewEntry = () => {
   const router = useRouter();
@@ -13,11 +14,16 @@ const NewEntry = () => {
   const [submitting, setIsSubmitting] = useState(false); // mostly for button animation
   const [entry, setEntry] = useState({}); // to create new entry
 
+  // load apps from local storage on first render
+  const [allApps, _] = getApps();
+  // console.log("all appsons", allApps);
+
   const addEntry = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const existingEntries = JSON.parse(localStorage.getItem("ledgerString"));
+    const existingEntries = allApps;
+    // console.log("Existing entry all apps", existingEntries);
     // check if entry already exists. We use title(names) because "id" will always be a unique value.
     const entryExists = existingEntries.some(
       (ent) => ent.title.toLowerCase() === entry.title.toLowerCase(),

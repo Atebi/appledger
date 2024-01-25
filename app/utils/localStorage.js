@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 
-const getApps = () => {
+export default function getApps() {
   const [allEntries, setAllEntries] = useState([]);
   const [totalEntries, setTotalEntries] = useState(0);
 
@@ -32,4 +32,3 @@ const getApps = () => {
   return [allEntries, totalEntries];
 };
 
-export default getApps;

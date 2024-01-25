@@ -38,7 +38,12 @@ const FeedSearch = () => {
       ) : (
         <div className="mt-24 grid place-items-center gap-4">
           <div className="relative h-24 w-24 opacity-75">
-            <Image src="/appledger/noteIllus.svg" fill={true} alt="" />
+            <Image
+              src="/appledger/noteIllus.svg"
+              fill={true}
+              alt="folder image"
+              priority={true}
+            />
           </div>
           <div>
             <h3 className="text-center text-xl font-bold text-gray-950/80 dark:text-gray-300/70">
