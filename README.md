@@ -2,17 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # Appledger
 
-<p style="background: #F2f2f2; color: black; border: 3px solid #535353; nargin: 0px auto; width: 456px; padding: 10px; border-radius: 10px;">
-> App directory for saving login credentials. This innovative application not
-> only stores your login credentials but
-> also makes it
-> conveniently easy to retrieve them
-> . No more worrying about forgetting your passwords or usernames.
-> With Appledger, you can enjoy a more
-> visual and user-friendly approach
-> to password management.
+<kbd><p>
+App directory for saving login credentials. This innovative application not
+only stores your login credentials but
+also makes it
+conveniently easy to retrieve them
+. No more worrying about forgetting your passwords or usernames.
+With Appledger, you can enjoy a more
+visual and user-friendly approach
+to password management.
 
-</p>
+</p></kbd>
 
 ## Site
 
@@ -20,7 +20,7 @@ Visit the live site [here](https://appledger.vercel.app)
 
 ## Figma
 
-You can test the [prototype](https://appledger.vercel.app) created in Figma.
+You can test the [prototype](https://www.figma.com/proto/E84xZikI87orYzxNaKlw7f/appLedger?type=design&node-id=34-441&t=3sgzyFApyqC663qq-0&scaling=scale-down&starting-point-node-id=384%3A304) created in Figma.
 
 ## Case-study
 
@@ -30,7 +30,8 @@ Learn more by reading the full [case-study](https://pixelayo.vercel.app/ayo/case
 
 - [Introduction](#introduction)
 - [Tech Stack](#tech-stack)
-- [Features and Screenshots](#features-and-screenshots)
+- [Features](#features)
+- [Screenshots](#screenshots)
 - [How to Use](#how-to-use)
 - [Project Status](#project-status)
 - [Room for Improvement](#room-for-improvement)
@@ -68,33 +69,38 @@ system in place to manage and retrieve login credentials easily.
 
 #### Available features:
 
-- <p align="center">One-time master password</p>
-
-<p float="left" align="center">
-<img src="./img/appl_login.webp" width="384" height="auto">
-<img src="./img/appl_home.webp" width="384" height="auto">
-</p>
+- One-time master password
 
 - Home screen to view all entries. Easily view, edit, and delete your entries on this page. The total
   number of entries is displayed at the top, and you can search by
   name, tag, or description.
 
-![alt text](./img/appl_home.webp)
-
 - Add new entries with the default template or remove and add
   fields as you like.
-
-![alt text](./img/appl_view.webp)
 
 - View, edit, and delete application data on this screen.
   Additionally, you may click on any field to copy its data to the
   clipboard.
 
-![alt text](./img/appl_view.webp)
-
 - Dark Theme
 
-![alt text](./img/appl_homeDark.webp)
+## Screenshots
+
+<p float="left" align="center">
+<img src="./img/appl_login.webp" width="49%" height="auto">
+<img src="./img/appl_home.webp" width="49%" height="auto">
+</p>
+/
+/
+<p float="left" align="center">
+<img src="./img/appl_create.webp" width="49%" height="auto">
+<img src="./img/appl_view.webp" width="49%" height="auto">
+</p>
+/
+/
+<p align="center">
+<img src="./img/appl_Home.webp" width="49%" height="auto">
+</p>
 
 ## How to Use
 
@@ -146,7 +152,7 @@ To fix a bug, create a new function or enhance the application, follow these ste
 
 - Feel free to contact me! [@Ayo](https://pixelayo.vercel.app/ayo/contact)
 - Check out my portfolio [here](https://pixelayo.vercel.app)
-- Linkedin - [@Ayo](https://pixelayo.vercel.app)
+- Linkedin - [@Ayo](www.linkedin.com/in/ayomide-iyela-b173802b0)
 
 <!-- To learn more about Next.js, take a look at the following resources:
 
