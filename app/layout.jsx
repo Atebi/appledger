@@ -1,16 +1,20 @@
-"use client";
+// "use client";
 
 import "./globals.css";
 import { Quicksand } from "next/font/google";
-import useDarkMode from "./utils/useDarkMode";
+// import useDarkMode from "./utils/useDarkMode";
+import { Providers } from "./components/Providers";
 
 const quicksand = Quicksand({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
-  const [colorTheme, setTheme] = useDarkMode();
+  // const [colorTheme, setTheme] = useDarkMode();
+  // className={colorTheme}
   return (
-    <html className={colorTheme} lang="en">
-      <body className={quicksand.className}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={quicksand.className}>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }

@@ -1,21 +1,30 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import getApps from "@/app/utils/localStorage";
-import useDarkMode from "../../utils/useDarkMode";
+// import useDarkMode from "../../utils/useDarkMode";
 import { IoSunnySharp, IoMoonSharp } from "react-icons/io5";
+
+import { useTheme } from "next-themes";
 
 // This is for the home page
 // I Commented out elements instead of deleting them so that one could possibly merge all 4 navbar components into 1.
 
 const BarTwo = () => {
   // to toggle between light and dark mode.
-  const [colorTheme, setTheme] = useDarkMode();
+  // const [colorTheme, setTheme] = useDarkMode();
+  const [mounted, setMounted] = useState(false);
+  const { systemTheme, theme, setTheme } = useTheme();
+  const currentTheme = theme === "system" ? systemTheme : theme;
 
   // bring in all entries so that we can update its total at the top of the navbar
   const [_, totalEntries] = getApps();
   // console.log("total For nav :", totalEntries);
   // console.log("For nav :", _);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <nav className="fixed right-0 top-0 mb-14 flex w-full justify-between border-b-2 border-gray-400/20 bg-white/30 px-4 py-1 backdrop-blur-md dark:border-gray-400/10 dark:bg-transparent md:px-10 lg:mb-20 lg:px-24">
@@ -43,15 +52,15 @@ const BarTwo = () => {
       <div className="flex w-32 justify-end">
         {/* toggle light and dark mode. */}
         <span className="self-center">
-          {colorTheme === "light" ? (
-            <IoSunnySharp
-              onClick={() => setTheme("light")}
-              className="h-5 w-5 fill-stone-100"
-            />
-          ) : (
+          {mounted && currentTheme === "light" ? (
             <IoMoonSharp
               onClick={() => setTheme("dark")}
               className="h-5 w-5 fill-stone-950"
+            />
+          ) : (
+            <IoSunnySharp
+              onClick={() => setTheme("light")}
+              className="h-5 w-5 fill-stone-100"
             />
           )}
         </span>

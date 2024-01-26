@@ -1,51 +1,52 @@
-"use client";
+// "use client";
 
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 
-const useDarkMode = () => {
-  const [theme, setTheme] = useState(
-    typeof Window !== "undefined" && window.localStorage
-      ? localStorage.theme
-      : "dark",
-  );
+// const useDarkMode = () => {
+//   const [theme, setTheme] = useState(
+//     typeof Window !== "undefined" && window.localStorage
+//       ? localStorage.theme
+//       : "dark",
+//   );
 
-  // typeof Window !== "undefined" && window.localStorage
-  //   ? localStorage.theme
-  //   : "dark",
-  // Window !== "undefined" ? localStorage.theme : "dark",
+//   // typeof Window !== "undefined" && window.localStorage
+//   //   ? localStorage.theme
+//   //   : "dark",
+//   // Window !== "undefined" ? localStorage.theme : "dark",
 
-  const colorTheme = theme === "dark" ? "light" : "dark";
+//   const colorTheme = theme === "dark" ? "light" : "dark";
 
-  // const colorTheme = theme === "" ? "light" : theme;
-  // const colorTheme = theme;
+//   // const colorTheme = theme === "" ? "light" : theme;
+//   // const colorTheme = theme;
 
-  useEffect(() => {
-    // const mode =
-    //   typeof Window !== "undefined" && window.localStorage
-    //     ? localStorage.theme
-    //     : "dark";
+//   useEffect(() => {
+//     // const mode =
+//     //   typeof Window !== "undefined" && window.localStorage
+//     //     ? localStorage.theme
+//     //     : "dark";
 
-    // console.log("mode:", mode);
+//     // console.log("mode:", mode);
 
-    // setTheme(mode);
-    // console.log("mode theme", theme);
+//     // setTheme(mode);
+//     // console.log("mode theme", theme);
 
-    const root = document.documentElement;
+//     const root = document.documentElement;
 
-    root.classList.remove(colorTheme);
-    // console.log("removed classlist from root:", colorTheme);
+//     root.classList.remove(colorTheme);
+//     console.log("removed classlist from root:", colorTheme);
 
-    const skin = theme === "" ? "light" : theme;
+//     const skin = theme === "" ? "light" : theme;
 
-    root.classList.add(skin);
-    // console.log("added classlist to root:", skin);
+//     root.classList.add(skin);
+//     // console.log("added classlist to root:", theme);
+//     console.log("added classlist to root:", skin);
 
-    if (Window !== "undefined") {
-      localStorage.setItem("theme", skin);
-    }
-  }, [theme]);
+//     if (Window !== "undefined") {
+//       localStorage.setItem("theme", skin);
+//     }
+//   }, [theme]);
 
-  return [colorTheme, setTheme];
-};
+//   return [colorTheme, setTheme];
+// };
 
-export default useDarkMode;
+// export default useDarkMode;
