@@ -4,7 +4,12 @@
 <br>
 A better way to manage your apps.
 </p>
-___
+
+<br>
+
+---
+
+<br>
 
 # Appledger
 
