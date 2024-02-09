@@ -1,8 +1,10 @@
 <p align="center">
 <img src="./img/appledger.svg">
 <br>
+<br>
 A better way to manage your apps.
 </p>
+___
 
 # Appledger
 
