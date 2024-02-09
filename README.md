@@ -1,15 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+<img src="./img/appledger.svg">
+<br>
+A better way to manage your apps.
+</p>
 
 # Appledger
 
-<span style="background: #f2f2f2; border: 3px solid #535353; margin: 0px auto; width: 456px; padding: 10px; border-radius: 10px;">App directory for saving login credentials. This innovative application not
-only stores your login credentials but
-also makes it
-conveniently easy to retrieve them
-. No more worrying about forgetting your passwords or usernames.
-With Appledger, you can enjoy a more
-visual and user-friendly approach
-to password management.</span>
+An app directory for managing accounts. This innovative application not only helps to organize your multiple app accounts but also makes it conveniently easy to retrieve account details when you need them. No more worrying about forgetting your passwords or usernames. With Appledger, you can enjoy a more visual and user-friendly approach to password management.
 
 ## Site
 
@@ -37,6 +34,11 @@ Learn more by reading the full [case study](https://pixelayo.vercel.app/ayo/case
 
 ## Introduction
 
+How many apps are you registered to? 50? 100? maybe more?
+<br>
+How do you manage them?
+<br>
+
 Keeping track of login credentials for multiple apps can be a
 daunting task. With the
 increasing number of apps we use daily, it’s not uncommon to have
@@ -62,7 +64,7 @@ system in place to manage and retrieve login credentials easily.
 - tailwindcss - 3.3.3
 - uuid - 9.0.1
 
-## Features and Screenshots
+## Features
 
 #### Available features:
 
