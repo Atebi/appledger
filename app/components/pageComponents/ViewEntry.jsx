@@ -55,7 +55,10 @@ const ViewEntry = () => {
         Tap any field to copy its contents
       </h3>
 
-      <form className="mb-10 grid h-full place-items-center gap-2 px-6">
+      <form
+        data-aos="fade-up"
+        className="mb-10 grid h-full place-items-center gap-2 px-6"
+      >
         {/* .slice so that I skip "id" */}
         {Object.keys(entry)
           .slice(1)

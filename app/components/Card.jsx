@@ -46,7 +46,7 @@ const Card = ({ title, descr, tag, id, highlight }) => {
 
   return (
     <>
-      <div
+      <div data-aos="fade-up"
         className={`grid h-36 w-full grid-cols-12 rounded-lg border-2 bg-white/30 p-4 pr-0.5 pt-1 ${borderColour} cursor-default hover:border-gray-400/40 hover:bg-white/40 dark:bg-transparent dark:${borderColourDark} dark:hover:border-gray-400/20`}
       >
         <div

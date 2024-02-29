@@ -59,6 +59,7 @@ const NewEntry = () => {
       </h3>
 
       <form
+        data-aos="fade-up"
         onSubmit={addEntry}
         className="mb-10 grid h-full place-items-center gap-2 px-6"
       >
